@@ -1,22 +1,4 @@
-# This workflow will upload a Python Package using Twine when a release is created
-# For more information see: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
-
-name: Upload Python Package
-
-on:
-  release:
-    types: [created]
-
-jobs:
-  deploy:
-# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: PythonDemo
-
-on:
-  push:
-    branches: [ main ]# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
+  # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: PythonDemo
@@ -59,10 +41,7 @@ jobs:
          pip install pytest
          pip install pytest-cov
          pytest test.py 
-        
-        
-        
-        
+
         
         
         
